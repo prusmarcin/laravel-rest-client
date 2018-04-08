@@ -54,7 +54,7 @@ $ php artisan vendor:publish
 Select provider from lists `Provider: Restclient\RestclientServiceProvider` and confirm.
 
 Then enter the `config` directory in your Laravel installation and open the `restclient.php` file.
-Now set the url value where your Rest Full API server is located.
+Edit url value where your Rest Full API server is located.
 
 ``` php
 return [
