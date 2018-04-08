@@ -7,8 +7,6 @@ You can see package Server API [package laravel-rest-server](https://github.com/
 [![Latest Stable Version](http://img.shields.io/packagist/v/prusmarcin/laravel-rest-client.svg)](https://packagist.org/packages/prusmarcin/laravel-rest-client)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/prusmarcin/laravel-rest-client/blob/master/LICENSE)
 
-:package_description
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Author](#author)
