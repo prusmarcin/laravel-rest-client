@@ -46,14 +46,15 @@ Once this has finished, you will need to add the service provider to the `provid
 \Restclient\RestclientServiceProvider::class,
 ```
 
-Next publish config file `restclient.php` to `/config`
+Then execute this command
 
 ``` bash
 $ php artisan vendor:publish
 ```
-Select provider from lists `Provider: Restclient\RestclientServiceProvider`
+Select provider from lists `Provider: Restclient\RestclientServiceProvider` and confirm.
 
-Now you set url variable in `restclient.php` in /config.
+Then enter the `config` directory in your Laravel installation and open the `restclient.php` file.
+Now set the url value where your Rest Full API server is located.
 
 ``` php
 return [
