@@ -79,12 +79,14 @@ Run this url in browser `http://localhost/laravelzadanie/test/public/products`
 
 WHERE `http://localhost/laravelzadanie/test/public/` <- is source your installation Laravel
 
-Display
+If everything works, you'll see what's on the screenshot
+
 ![Screenshot](products.jpg)
 
-`http://localhost/laravelzadanie/test/public/products/available`
+To view all products just enter `http://localhost/laravelzadanie/test/public/products/available`
 
-Display
+You'll see
+
 ![Screenshot](products-available.jpg)
 
 
