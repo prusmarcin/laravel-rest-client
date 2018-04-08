@@ -1,5 +1,5 @@
 # laravel-rest-server
-Package rest full server for Laravel
+Package Rest Full API client for Laravel
 
 [![Total Downloads](http://img.shields.io/packagist/dm/prusmarcin/laravel-rest-client.svg)](https://packagist.org/packages/prusmarcin/laravel-rest-client)
 [![Latest Stable Version](http://img.shields.io/packagist/v/prusmarcin/laravel-rest-client.svg)](https://packagist.org/packages/prusmarcin/laravel-rest-client)
