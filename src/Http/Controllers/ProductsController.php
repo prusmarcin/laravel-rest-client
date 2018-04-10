@@ -8,8 +8,17 @@ use GuzzleHttp\Client;
 class ProductsController extends Controller
 {
 
+	/**
+     * Variable store instance object of GuzzleHttp
+     *
+     * @var client
+     */
     private $client;
 
+	/**
+     * Create instance new object.
+     *
+     */
     public function __construct()
     {
         $client = new Client([
@@ -23,6 +32,11 @@ class ProductsController extends Controller
         $this->client = $client;
     }
 
+	/**
+     * Display available products with amount > 0.
+     *
+     * @return products as json
+     */
     public function available()
     {
 
@@ -34,6 +48,12 @@ class ProductsController extends Controller
         }
     }
 
+	/**
+     * Display available products with amount entered by user.
+     *
+	 * @param int $amount - count each product
+     * @return products as json
+     */
     public function availableCondition($amount)
     {
         if (isset($amount)) {
@@ -46,6 +66,11 @@ class ProductsController extends Controller
         }
     }
 
+	/**
+	* Display unavailable products with amount = 0.
+     *
+     * @return products as json
+     */
     public function unavailable()
     {
 
